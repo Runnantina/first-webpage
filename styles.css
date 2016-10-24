@@ -1,0 +1,81 @@
+body {
+	background-color: pink;
+	max-width: 1050px; 
+}
+
+h1{
+	color: white;
+  text-shadow: orange 3px 3px;
+  font-weight: initial;
+  font-variant: small-caps;
+  font-size: 5em;
+  font-family: arial;
+}
+
+#about-hiking h1 {
+  padding-left: 0px;
+  width: 40%;
+  min-width: 60%;
+
+}
+
+strong {
+	font-size: 2em;
+}
+
+h3 {
+	font-family: sans-serif;
+	font-size: 1em
+}
+
+p.checklist { 
+	color: white;
+	text-shadow: orange 3px 3px;
+	font-family: arial;
+ }
+
+ strong.park {
+ 	font-family: sans-serif;
+ }
+
+table { 
+	border: 3px solid white;
+  background-color: turquoise;
+  color: white;
+  text-shadow: orange 3px 3px;
+  font-weight: initial;
+  font-variant: small-caps;
+  font-size: 1em;
+  font-family: arial;
+  padding: 10px;
+  margin: 10px;
+  width: 40%;
+
+}
+
+img {
+	position: absolute;
+	z-index: -1
+}
+
+h6{	
+	color: red;
+	margin-bottom: -50cm;
+	margin-left: 5.5cm;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    text-shadow: 3px 3px turquoise;
+    font-size: 70px;
+  }
+  title {
+    font-size: 80px;
+  }
+}
+
+a:visited {
+    color: purple;
+}
+
+
